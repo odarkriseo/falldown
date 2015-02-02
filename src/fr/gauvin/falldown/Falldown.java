@@ -13,14 +13,15 @@ public class Falldown extends JFrame {
 
 	public Falldown() {
 		super("Falldown");
-
+		//hello world$
+		
 		WindowListener l = new WindowAdapter() {
 			public void windowClosing(WindowEvent e){
 				System.exit(0);
 			}
 		};
 		
-		//JButton b = new JButton("toto");
+		JButton b = new JButton("toto");
 		
 		Canvas c = new Canvas() {
 			@Override
